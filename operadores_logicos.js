@@ -5,3 +5,11 @@
 // Operador lógico NOT (!): El operador lógico NOT no realiza ninguna comparación como lo hacen los operadores AND y OR.
 
 // Este se utiliza con un símbolo "!" (signo de exclamación) para representar un operador NOT o negación.
+
+const a = 10
+const b = 20
+const c = "10"
+
+console.log(a == b && c == a)
+console.log(a != b || a === c)
+console.log(!a === c)

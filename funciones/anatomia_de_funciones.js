@@ -5,7 +5,7 @@ function calculateDiscountPrice(price, discountPercentage){
     return priceWithDiscount
 }
 
-const orginalPrice = 100
+const originalPrice = 100
 const discountPercentage = 20
 const finalPrice = calculateDiscountPrice(originalPrice, discountPercentage)
 

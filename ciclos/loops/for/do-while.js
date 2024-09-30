@@ -1,4 +1,5 @@
 /**
+ * Primero se ejecuta el codigo y depues el while con la condicion
  * do {
  *  codigo
  * }while (condicion)

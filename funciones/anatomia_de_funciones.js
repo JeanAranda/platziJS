@@ -6,9 +6,9 @@ function calculateDiscountPrice(price, discountPercentage){
 }
 
 const originalPrice = 100
-const discountPercentage = 20
+const discountPercentage = 15
 const finalPrice = calculateDiscountPrice(originalPrice, discountPercentage)
 
 console.log("Precio Original: S/."+originalPrice)
 console.log("Descuento: "+discountPercentage+"%")
-console.log("Precion con descuento: S/."+finalPrice)
+console.log("Precio con descuento: S/."+finalPrice)
